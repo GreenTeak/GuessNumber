@@ -1,0 +1,5 @@
+ .idea/
+ GuessNumber.iml
+ out/
+ src/
+ test/
