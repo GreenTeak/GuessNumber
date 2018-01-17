@@ -40,6 +40,8 @@ public class testAnswerGenerator {
         char third=answernumber.charAt(CheckThird);
         for(int i=0;i<answernumber.length();i++){
             if(i!=CheckThird){
+                System.out.println(answernumber.charAt(i));
+                System.out.println(third);
                 assertNotEquals(answernumber.charAt(i),third);
             }
             else i++;
@@ -53,6 +55,8 @@ public class testAnswerGenerator {
         char last=answernumber.charAt(CheckLast);
         for(int i=0;i<answernumber.length();i++){
             if(i!=CheckLast){
+                System.out.println(answernumber.charAt(i));
+                System.out.println(last);
                 assertNotEquals(answernumber.charAt(i),last);
             }
             else i++;
