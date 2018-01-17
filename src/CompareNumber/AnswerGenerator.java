@@ -20,7 +20,7 @@ public class AnswerGenerator {
             answer+=it.next().toString();
         }
        // answer= answernumber.toString();
-        System.out.println(answer);
+        //System.out.println(answer);
         return  answer;
     }
 }
