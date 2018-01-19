@@ -3,9 +3,20 @@ package CompareNumber;
 import org.junit.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
 public class testAnswerGenerator {
+    /*数字为4位测试*/
+    @Test
+    public void checkAnswerNumber(){
+        int shouldLen=4;
+        AnswerGenerator answergenerator=new AnswerGenerator();
+        String answernumber=answergenerator.GeneratorWithoutRepetition();
+        int len=answernumber.length();
+        assertEquals(len,shouldLen);
+    }
+    /* 不重复性测试*/
     @Test
     public void CheckFirstNotRepetition(){
         int CheckFirst=0;
@@ -60,5 +71,12 @@ public class testAnswerGenerator {
             else i++;
         }
     }
-
+    /*随机性测试*/
+    @Test
+    public void checkAnswerRandom(){
+        AnswerGenerator answergenerator=new AnswerGenerator();
+        String answernumber1=answergenerator.GeneratorWithoutRepetition();
+        String answernumber2=answergenerator.GeneratorWithoutRepetition();
+        assertNotEquals(answernumber1,answernumber2);
+    }
 }

@@ -6,6 +6,21 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class testCompareNumber {
+    /*输入合法性测试，即数字是否有重复数字*/
+    @Test
+    public void shouldReturnNagative1(){
+        CompareNumber comparenumber=new CompareNumber();
+        String result=comparenumber.CompareAnswerAndInput("1242","1235");
+        assertThat(result,is("-1"));
+    }
+    /*输入不是全猜对情况下测试*/
+    @Test
+    public void shouldReturnOAOB(){
+        CompareNumber comparenumber=new CompareNumber();
+        String result=comparenumber.CompareAnswerAndInput("1234","1235");
+        assertThat(result,is("0A0B"));
+    }
+    /*输入全猜对情况下测试*/
     @Test
     public void  shouldReturn0A4B(){
         CompareNumber comparenumber=new CompareNumber();

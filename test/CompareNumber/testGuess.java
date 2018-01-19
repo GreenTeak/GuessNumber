@@ -17,7 +17,7 @@ public class testGuess {
     }
     @Test
     public void testIntergationGuess(){
-        String result="0A4B,1A3B,2A2B,4A0B,-1";
+        String result="0A4B,1A3B,2A2B,4A0B,0A0B,-1";
         Guess guess=new Guess();
         String output=guess.GuessNumberGame("1224");
         int i=result.indexOf(output);
