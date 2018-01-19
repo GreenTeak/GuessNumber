@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="00b361a3-2f0d-4f54-ac94-3c3c226ece48" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/CompareNumber/AnswerGenerator.java" afterPath="$PROJECT_DIR$/src/CompareNumber/AnswerGenerator.java" />
-      <change beforePath="$PROJECT_DIR$/src/CompareNumber/CompareNumber.java" afterPath="$PROJECT_DIR$/src/CompareNumber/CompareNumber.java" />
-      <change beforePath="$PROJECT_DIR$/src/CompareNumber/Guess.java" afterPath="$PROJECT_DIR$/src/CompareNumber/Guess.java" />
-      <change beforePath="$PROJECT_DIR$/test/CompareNumber/testAnswerGenerator.java" afterPath="$PROJECT_DIR$/test/CompareNumber/testAnswerGenerator.java" />
-      <change beforePath="$PROJECT_DIR$/test/CompareNumber/testCompareNumber.java" afterPath="$PROJECT_DIR$/test/CompareNumber/testCompareNumber.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuessNumber/CompareNumber/AnswerGenerator.class" afterPath="$PROJECT_DIR$/out/production/GuessNumber/CompareNumber/AnswerGenerator.class" />
+      <change beforePath="$PROJECT_DIR$/out/test/GuessNumber/CompareNumber/testGuess.class" afterPath="$PROJECT_DIR$/out/test/GuessNumber/CompareNumber/testGuess.class" />
       <change beforePath="$PROJECT_DIR$/test/CompareNumber/testGuess.java" afterPath="$PROJECT_DIR$/test/CompareNumber/testGuess.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,8 +25,8 @@
       <file leaf-file-name="CompareNumber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CompareNumber/CompareNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            <state relative-caret-position="190">
+              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -159,8 +156,8 @@
       <file leaf-file-name="Guess.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CompareNumber/Guess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="38">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -179,8 +176,8 @@
       <file leaf-file-name="testGuess.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/CompareNumber/testGuess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="202">
+              <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -343,7 +340,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.testAnswerGenerator">
+  <component name="RunManager" selected="JUnit.testGuess">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -553,10 +550,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.testAnswerGenerator" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.testCompareNumber" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PlayGame" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.testGuess" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.testGuess" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.testAnswerGenerator" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.testCompareNumber" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PlayGame" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.testAnswerGenerator.CheckThirdNotRepetition" />
       </list>
     </recent_temporary>
@@ -577,7 +574,7 @@
       <workItem from="1516088927551" duration="18602000" />
       <workItem from="1516151302806" duration="28400000" />
       <workItem from="1516287416949" duration="553000" />
-      <workItem from="1516331075827" duration="9365000" />
+      <workItem from="1516331075827" duration="10183000" />
     </task>
     <servers />
   </component>
@@ -594,27 +591,27 @@
     <history-entry file="testCompareNumber - 2018.01.19 at 13h 06m 33s.xml">
       <configuration name="testCompareNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testGuess - 2018.01.17 at 18h 16m 41s.xml">
-      <configuration name="testGuess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testGuess - 2018.01.17 at 19h 20m 12s.xml">
-      <configuration name="testGuess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testGuess - 2018.01.17 at 19h 20m 55s.xml">
-      <configuration name="testGuess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testGuess - 2018.01.17 at 20h 38m 47s.xml">
-      <configuration name="testGuess" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="testGuess - 2018.01.17 at 20h 40m 14s.xml">
       <configuration name="testGuess" configurationId="JUnit" />
     </history-entry>
     <history-entry file="testGuess - 2018.01.17 at 20h 58m 21s.xml">
       <configuration name="testGuess" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="testGuess - 2018.01.19 at 14h 09m 09s.xml">
+      <configuration name="testGuess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testGuess - 2018.01.19 at 14h 09m 26s.xml">
+      <configuration name="testGuess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testGuess - 2018.01.19 at 14h 09m 37s.xml">
+      <configuration name="testGuess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testGuess - 2018.01.19 at 14h 10m 23s.xml">
+      <configuration name="testGuess" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56920000" />
+    <option name="totallyTimeSpent" value="57738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -629,7 +626,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4062992" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10866142" sideWeight="0.8916545" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32598424" sideWeight="0.8916545" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22834645" sideWeight="0.4941435" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1237,37 +1234,11 @@
     <entry file="file://$PROJECT_DIR$/src/CompareNumber/CompareRandomNumber.java" />
     <entry file="file://$PROJECT_DIR$/test/testGuess.java" />
     <entry file="file://$PROJECT_DIR$/test/testPlayGame.java" />
-    <entry file="file://$PROJECT_DIR$/src/CompareNumber/PlayGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/CompareNumber/testPlayGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompareNumber/CompareNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompareNumber/AnswerGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1291,18 +1262,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompareNumber/AnswerGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompareNumber/CompareNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CompareNumber/Guess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompareNumber/PlayGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/CompareNumber/testGuess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="202">
+          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

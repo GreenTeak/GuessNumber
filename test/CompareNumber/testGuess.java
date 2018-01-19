@@ -19,7 +19,7 @@ public class testGuess {
     public void testIntergationGuess(){
         String result="0A4B,1A3B,2A2B,4A0B,0A0B,-1";
         Guess guess=new Guess();
-        String output=guess.GuessNumberGame("1224");
+        String output=guess.GuessNumberGame("1234");
         int i=result.indexOf(output);
         assertNotEquals(-1,i);
     }
